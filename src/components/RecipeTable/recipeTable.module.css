@@ -1,0 +1,19 @@
+.RecipeTable {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.RecipeTable td,
+.RecipeTable th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.RecipeTable th {
+  text-align: center;
+}
+
+.RecipeTable tr:nth-child(even) {
+  background-color: #dddddd;
+}

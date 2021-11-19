@@ -1,0 +1,17 @@
+.TextArea {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.TextArea label {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+}
+.TextArea textarea {
+  resize: vertical;
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(51, 51, 51, 0.3);
+}

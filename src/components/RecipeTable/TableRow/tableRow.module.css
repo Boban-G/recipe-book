@@ -1,0 +1,18 @@
+.TableRow {
+}
+.TableRow .CtaBox {
+  text-align: center;
+  font-weight: bold;
+}
+.CtaBtn {
+  /* color: red; */
+  cursor: pointer;
+}
+.CtaBtn:hover {
+  text-decoration: underline;
+}
+
+.DeleteBtn {
+  color: var(--danger-color);
+
+}

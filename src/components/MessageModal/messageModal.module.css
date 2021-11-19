@@ -1,0 +1,36 @@
+.MessageModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MessageModal > div {
+  padding: 3.6rem;
+
+  color: var(--white-color);
+  width: 90%;
+  max-width: 400px;
+  height: 90%;
+  max-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.MessageModal.Info > div {
+  background: var(--primary-color);
+}
+.MessageModal.Danger > div {
+  background: var(--danger-color);
+}

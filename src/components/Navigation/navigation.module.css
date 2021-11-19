@@ -1,0 +1,18 @@
+.Navigation {
+  display: inline-block;
+}
+
+.Navigation a {
+  display: inline-block;
+  padding: 5px 10px;
+  font-weight: 500;
+}
+.Navigation a:hover {
+   color: var(--primary-color);
+}
+
+.Navigation a.ActiveLink:hover,
+.ActiveLink {
+  background: var(--primary-color);
+  color: #fff;
+}
